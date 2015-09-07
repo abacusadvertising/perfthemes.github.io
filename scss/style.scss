@@ -710,10 +710,23 @@ body {
     color: #fff;
 }
 
+#hero small{
+    padding-top: 30px;
+display: inline-block;
+}
 .header_top-bg {
     background: url('../../images/top_hero.min.png') no-repeat top center;
     min-height: 155px;
     padding: 80px 0 50px;
+}
+
+a{
+    color: #444349;
+    border-bottom: 1px solid #444349;
+}
+
+a:hover{
+    border-bottom: 1px solid transparent;
 }
 
 .h1, .h2, .h3, h1, h2, h3 {
@@ -833,6 +846,8 @@ p, .lead {
 
 .lead {
     font-size: 21px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .section_title{
@@ -840,13 +855,59 @@ p, .lead {
     text-transform: uppercase;
     font-size: 30px;
     color: #5c5c5c;
-    margin: 0 0 50px 0;
+    margin: 40px 0 40px 0;
 }
 
 h4 {
     font-size: 25px;
     margin: 15px 0;
     color: #5c5c5c;
+}
+
+.img_center{
+    margin: 0 auto;
+    display: block;
+}
+
+.m_top_bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.section_title.small{
+    font-weight: 400;
+    font-size: 20px;
+    margin: 40px 0 40px 0;
+
+}
+
+.section_separator{
+    padding: 50px 0;
+}
+
+#footer{
+    background-color: #444349;
+    color: #fff;
+    text-align: center;
+}
+
+#footer h4{
+    color: #fff;
+    font-size: 20px;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#footer small{
+    display: inline-block;
+    color: #ccc;
+    text-align: center;
+    padding: 30px 0;
+    width: 100%;
+}
+
+#logo_footer{
+    margin: 0 20px 0 0;
 }
 
 @media (max-width: 768px) {
